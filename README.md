@@ -111,12 +111,20 @@ TXT → Clean raw text format
 
 
 📁 Project Structure
-GEN/ ├── app.py
+
+GEN/
+├── app.py
+
 ├── requirements.txt
+
 ├── static/
+
 │ ├── css/style.css
+
 │ └── js/main.js
+
 └── templates/
+
 └── index.html
 
 
