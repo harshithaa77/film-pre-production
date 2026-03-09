@@ -9,11 +9,13 @@ Mood & Sound Design: AI-suggested scores and ambient sounds.
 Production Planning: Budget, cast, and location breakdown.
 Premium UI: Dark mode, glassmorphism, and smooth animations.
 Export: Download your project as PDF or TXT.
+
 🛠 Tech Stack
 Backend: Python (Flask)
 Frontend: HTML5, CSS3, Vanilla JavaScript
 AI: Google Gemini API
 Database: SQLite
+
 📦 Setup & Installation
 Clone the repository (if not already done).
 Install dependencies:
@@ -28,15 +30,10 @@ Run the application:
 python app.py
 Open in Browser:
 Navigate to http://localhost:5000
+
 🎨 Architecture
 app.py: Main Flask application.
 utils/ai.py: Handles Gemini API interactions.
 clean/: Contains the premium UI assets.
 database: scriptoria.db (created on first run).
-📝 Usage
-Register/Login.
-Go to Dashboard.
-Click "New Project".
-Enter your movie idea.
-Wait for AI generation.
-Explore the generated assets and export.
+
