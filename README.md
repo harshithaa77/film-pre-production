@@ -1,27 +1,42 @@
-# film-pre-production
-Scriptoria AI-powered film pre-production system  Scriptoria – Generative AI Film Pre-Production System Project ID: SPS_PRO_9472  Scriptoria is an AI-based application that helps filmmakers generate screenplays, character profiles, and production plans from simple ideas.  Technologies Used Python Flask HTML CSS Generative AI 
-Create a visually stunning web application prototype for a Generative AI-powered film pre-production suite. It will use HTML, CSS, and Vanilla JavaScript with a premium dark-mode aesthetic.
+Generative AI–Powered Film Pre-Production System
 
-Proposed Changes
-Core Application
-[NEW] 
+Scriptoria is a premium web application that uses Google Gemini AI to convert simple movie ideas into professional screenplays, character profiles, mood boards, and production plans.
 
-index.html
-Main structure including sidebar navigation and content sections (Dashboard, Script Analysis, Storyboarding, Character Generation).
-
-[NEW] 
-
-styles.css
-Premium, dynamic design system featuring dark mode, glassmorphism, glowing accents, and smooth animations appropriate for an AI tool.
-
-[NEW] 
-
-script.js
-Logic to handle tab navigation, simulate AI text generation for script analysis, and manage storyboard/character image placeholders.
-
-Verification Plan
-Manual Verification
-Open index.html in a web browser.
-Verify that the UI renders correctly with the dark-mode premium aesthetic.
-Test navigation between different pre-production modules.
-Interact with the "Generate" buttons to ensure the mock AI generation animations and delays work correctly.
+🚀 Features
+AI Screenplay Generation: Standard Hollywood format.
+Character Profiles: Detailed backstories and arcs.
+Mood & Sound Design: AI-suggested scores and ambient sounds.
+Production Planning: Budget, cast, and location breakdown.
+Premium UI: Dark mode, glassmorphism, and smooth animations.
+Export: Download your project as PDF or TXT.
+🛠 Tech Stack
+Backend: Python (Flask)
+Frontend: HTML5, CSS3, Vanilla JavaScript
+AI: Google Gemini API
+Database: SQLite
+📦 Setup & Installation
+Clone the repository (if not already done).
+Install dependencies:
+pip install -r requirements.txt
+Set up Environment Variables:
+Create a .env file in the root directory.
+Add your Gemini API key:
+GEMINI_API_KEY=your_api_key_here
+SECRET_KEY=your_secret_key_here
+Note: If you don't have an API key, the app will automatically run in Mock Mode, generating demo data for testing.
+Run the application:
+python app.py
+Open in Browser:
+Navigate to http://localhost:5000
+🎨 Architecture
+app.py: Main Flask application.
+utils/ai.py: Handles Gemini API interactions.
+clean/: Contains the premium UI assets.
+database: scriptoria.db (created on first run).
+📝 Usage
+Register/Login.
+Go to Dashboard.
+Click "New Project".
+Enter your movie idea.
+Wait for AI generation.
+Explore the generated assets and export.
