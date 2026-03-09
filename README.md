@@ -109,6 +109,7 @@ PDF → ReportLab (Times-Roman 11pt, 1.5 line spacing)
 DOCX → python-docx (Cambria 11pt, structured headings)
 TXT → Clean raw text format
 
+
 📁 Project Structure
 GEN/ ├── app.py
 ├── requirements.txt
