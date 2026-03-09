@@ -36,11 +36,13 @@ Display in SPA →
 Export (TXT / PDF / DOCX)
 
 ✨ Key Features
+
 🎬 1. Screenplay Generator
 Industry-standard formatting
 ALL CAPS scene headings
 INT./EXT. structure
 Proper dialogue formatting
+
 👥 2. Character Profiles
 Name, Age
 Personality traits
@@ -48,12 +50,14 @@ Motivation
 Character arc
 Costume design
 Relationships
+
 🎵 3. Sound Design Plan
 Background score suggestions
 Ambient sound planning
 Emotional beats
 Silence usage
 Scene transitions
+
 📋 4. Script Breakdown
 Location per scene
 Day/Night classification
@@ -61,6 +65,7 @@ Characters present
 Props required
 Costume notes
 Production requirements
+
 🎥 5. Professional Shot List
 Shot number
 Shot type (CU, MS, WS, etc.)
